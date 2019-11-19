@@ -11,7 +11,7 @@ The widget is based on the plugin [goodshare.js](https://github.com/koddr/goodsh
  
 ### Supported providers list.
 
-##### Import social networks providers with share counter.
+##### Social networks providers with share counter.
   - Vkontakte,
   - Facebook,
   - Odnoklassniki,
@@ -21,7 +21,7 @@ The widget is based on the plugin [goodshare.js](https://github.com/koddr/goodsh
   - Pinterest,
   - Reddit,
   - Buffer,
-  ##### Import social networks providers without share counter.
+  ##### Social networks providers without share counter.
   - Twitter,
   - LiveJournal,
   - Evernote,
@@ -40,7 +40,7 @@ The widget is based on the plugin [goodshare.js](https://github.com/koddr/goodsh
   - Baidu,
   - RenRen,
   - Weibo,
-  ##### Import mobile messengers providers.
+  ##### Mobile messengers providers.
   - SMS,
   - Skype,
   - Telegram,
