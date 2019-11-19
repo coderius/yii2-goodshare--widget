@@ -1,0 +1,48 @@
+{
+    "name": "coderius/yii2-goodshare-widget",
+    "description": "Goodshare widget for Yii2. Simple print social share links in some website",
+    "type": "yii2-extension",
+    "keywords": [
+        "coderius",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "goodshare",
+        "sharing buttons",
+        "social share links"
+    ],
+    "homepage": "https://github.com/coderius/yii2-goodshare-widget",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Serg Coderius",
+            "email": "sunrise4fun@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/coderius/yii2-goodshare-widget/issues",
+        "source": "https://github.com/coderius/yii2-goodshare-widget"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "npm-asset/goodshare.js": "~6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "coderius\\goodshare\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
