@@ -5,8 +5,9 @@
  * @license This program is free software: the MIT License (MIT)
  */
 
-namespace coderius\goodshare;
+namespace coderius\goodshare\widgets;
 
+use Yii;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\base\Widget;
@@ -16,12 +17,18 @@ use yii\helpers\ArrayHelper;
 use yii\base\InvalidArgumentException;
 
 /**
- * GoodShare renders a social share links.
+ * GoodShare renders a wrapper for social share links.
  * 
  * @author Sergio Coderius <sunrise4fun@gmail.com>
  */
-class GoodShare extends Widget
+class Share extends Widget
 {
+    /**
+     * @var array the HTML attributes (name-value pairs) for the wrap tag.
+     * @see \yii\helpers\Html::renderTagAttributes() for details on how attributes are being rendered.
+     */
+    public $options = [];
+
     /**
      * Initializes widget.
      * This method will initialize required property values.
@@ -41,6 +48,7 @@ class GoodShare extends Widget
     {
         
     }
+
 
     
 }

@@ -33,7 +33,7 @@
         "npm-asset/goodshare.js": "~6.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.0"
+        "phpunit/phpunit": "^6.0"
     },
     "autoload": {
         "psr-4": {
